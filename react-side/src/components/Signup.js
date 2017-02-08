@@ -11,7 +11,12 @@ class Signup extends Component {
   render() {
     return (
       <div>
-        <p>I am the signup component.</p>
+        <form>
+          <label>Email: </label>
+          <input />
+          <label>Password: </label>
+          <input />
+        </form>
       </div>
     )
   }
